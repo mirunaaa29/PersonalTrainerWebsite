@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins' ;
+}
+
+ul{
+    list-style-type: none;
+}
+ 
+a{
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    .logo{
+        color: #f1b24a;
+        font-weight: bold;
+        margin-top: 7px;
+        margin-left: 50px;
+        
+    }
+    
+    ul{
+        display: flex;
+        z-index: 999;
+        margin-top: -50px ;
+        margin-left: 620px;
+        font-size: 14px;
+        color:#6B9584;
+    }
+
+    li {
+        margin: 60px;
+       a {
+        color:#6B9584 ;
+      }
+    }
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    .hero-img {
+        width: 900px;
+        margin-top: -450px;
+      
+       
+        
+    }
+    
+    .left-col {
+        margin-left: 60px;
+        padding-top: 90px;
+        padding-left: 40px;
+        
+
+        h1 {
+            font-size: 3em;
+            z-index: 999;
+            width: 700px;
+            color: #164A41;
+            text-transform: uppercase;
+            letter-spacing: 0.01em;
+            word-spacing: 0.1em;
+            position: absolute;
+        }
+
+       
+        p {
+            color: #6B9584;
+            margin-top: 200px;
+            font-size: 1.2em;
+        }
+
+       
+        .primary-cta {
+            margin-top: 3000px;
+            background: #F1B24A;
+            color: white;
+            padding: .6em 1.3em;
+            font-size: 1.3em;
+            border-radius: 5em;
+            font-weight: bold;
+            overflow: hidden;
+            position: relative;
+            top: 50px;
+        }
+    }
+}
+
+.description-section {
+    display: flex;
+    justify-content: space-around;
+    background: #f1b24a;
+    border-radius: 6em;
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: -80px;
+    position: relative;
+    
+
+    .antrenor {
+        width: 270px;
+        padding-right: 70px;
+    }
+
+    .left-description {
+        color: white;
+        padding-left: 40px;
+        padding-top: 35px;
+    }
+
+    .description {
+        width: 400px;
+        font-size: 1.1em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .name {
+        opacity: 0.7;
+        margin-top: -20px;
+    }
+}
+
+.motivation {
+    background: #EEF0EF;
+    margin-top: -150px;
+    padding-top: 200px;
+
+    .motivation-text {
+        text-align: center;
+        h3 {
+            font-size: 3em;
+            text-transform: uppercase;
+            color: #164A41;
+        }
+
+        p {
+            color: #6B9584;
+            width: 1000px;
+            margin: 0 auto;
+            font-size: 1.15em;
+            margin-top: -20px;
+        }
+    }
+
+    .calitati ul {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+      li {
+         background: #f1b24a;
+         width: 350px;
+         height: 400px;
+         
+    
+          img {
+            width: 60px;
+            padding-top: 50px;
+            padding-left: 140px;
+            
+          }
+          .quality {
+              text-transform: uppercase;
+              color: white;
+              font-weight: bold;
+              font-size:1.3em;
+              text-align: center;
+              width:250px;
+              padding-left: 45px;
+          }
+
+          .quality-description {
+              color: white;
+              text-align: center;
+              font-size: .95em;
+              padding: .5em 1.5em;
+          }
+      }
+    }
+}
+
+
+.online-app {
+    background-color: #6B9584;
+    display: flex;
+    margin-top: -100px;
+    padding-top: 200px;
+    padding-left:100px ;
+    color:white;
+    padding-bottom: 65px;
+    
+    .online-img {
+        img {
+            width: 500px;
+            padding-top: 120px;
+            padding-left: 60px;
+        }
+    }
+
+    h4 {
+        text-transform: uppercase;
+        font-size: 2em;
+        width: 600px;
+    }
+
+    .app-description {
+        width: 600px;
+        font-size: 1em;
+        margin-top:-30px;
+    }
+
+    h5 {
+        font-size: 1.6em;
+        font-style: italic;
+    }
+
+    .features-list{
+        font-size: 1.1em;
+        margin-top: -15px;
+        img {
+            width: 20px;
+            margin-left: -55px;
+            margin-bottom: -4px;
+            
+        }
+
+        
+
+        li {
+            padding : 15px;
+        }
+    }
+}
+
+.client {
+    
+    h5 {
+        font-size: 2em;
+        color: #164A41;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+    }
+    li {
+        background: #f1b24a ;
+        width: 320px;
+        height:200px;
+        margin: 0 auto 5em auto;
+        padding: 1.5em 1em;
+        text-align: center;
+        
+       
+        img{
+            width: 5em;
+            height: 5em;
+            margin-top: -4em;
+            
+         }
+
+        blockquote {
+            color: white;
+            font-size: .9em;
+        }
+
+        cite {
+            color: #164A41;
+        }
+    }
+
+    .buton-rezultate {
+        a{
+            color: white;
+        }
+        background: #164A41;
+        padding: 15px 27px;
+        margin: 0 auto;
+        width: 140px;
+        height: 30px;
+        border-radius: 5em;
+        text-align: center;
+        font-size: 1.15em;
+        margin-bottom: 100px;
+        
+    }
+   
+}
+
+footer {
+    background: #EEF0EF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    ul {
+        display: flex;
+        justify-content: space-around;
+
+    
+        a {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        
+        }
+
+        .footer-logo{
+            color:#f1b24a;
+            font-weight: bold;
+            font-size: 1.24em;
+        }
+
+        p, a {
+            color: #6B9584;
+            font-size: .8em;
+           
+        }
+
+        .action {
+            color: #164A41;
+            font-weight: bold;
+        }
+
+        
+
+    }
+
+    .copyrights {
+        font-size: .6em;
+        opacity: 44%;
+        padding-left: 120px;
+        
+    }
+}
+          

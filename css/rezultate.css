@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .logo {
+  color: #f1b24a;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-left: 50px;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 999;
+  margin-top: -50px;
+  margin-left: 620px;
+  font-size: 14px;
+  color: #6B9584;
+}
+
+.navbar li {
+  margin: 60px;
+}
+
+.navbar li a {
+  color: #6B9584;
+}
+
+h1 {
+  color: #6B9584;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+}
+
+h2 {
+  color: #6B9584;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: normal;
+  margin-top: -15px;
+}
+
+.rezultate {
+  padding-top: 100px;
+}
+
+.rezultate li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #F1B24A;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.rezultate li img {
+  width: 300px;
+  margin: 30px;
+}
+
+.rezultate li .description p {
+  color: white;
+  font-style: italic;
+  font-size: 1.2em;
+  margin: 50px;
+}
+
+.rezultate li .description .name {
+  color: #164A41;
+  text-align: end;
+  margin-bottom: 40px;
+  padding-right: 80px;
+  margin-top: -30px;
+  font-size: 1.2em;
+}
+
+footer {
+  background: #EEF0EF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer ul a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10px;
+}
+
+footer ul .footer-logo {
+  color: #f1b24a;
+  font-weight: bold;
+  font-size: 1.24em;
+}
+
+footer ul p, footer ul a {
+  color: #6B9584;
+  font-size: .8em;
+}
+
+footer ul .action {
+  color: #164A41;
+  font-weight: bold;
+}
+
+footer .copyrights {
+  font-size: .6em;
+  opacity: 44%;
+  padding-left: 120px;
+}
+/*# sourceMappingURL=rezultate.css.map */

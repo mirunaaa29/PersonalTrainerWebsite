@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins' ;
+}
+
+ul{
+    list-style-type: none;
+}
+ 
+a{
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    .logo{
+        color: #f1b24a;
+        font-weight: bold;
+        margin-top: 7px;
+        margin-left: 50px;
+        
+    }
+    
+    ul{
+        display: flex;
+        z-index: 999;
+        margin-top: -50px ;
+        margin-left: 620px;
+        font-size: 14px;
+        color:#6B9584;
+    }
+
+    li {
+        margin: 60px;
+       a {
+        color:#6B9584 ;
+      }
+    }
+}
+
+.contact-section{
+    display: flex;
+    justify-content: space-around;
+
+    .contact-left{
+        background: #F5F5F5;
+        width: 350px;
+        height: 550px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        h2{
+            color: #164A41;
+            text-transform: uppercase;
+            padding-top: 10px;
+            
+        }
+        
+        label {
+            display: block;
+            color: #164A41;
+            font-size: 1.1em;
+        }
+
+        input , textarea {
+            display: block;
+            width: 100%;
+            padding: .8em;
+            border: 1px solid #707070;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            
+        }
+       
+        .send-message-cta {
+            background: #F1B24A;
+            color:#164A41;
+            font-size: 1.1em;
+            border: none;
+            margin-bottom: 4em;
+            border-radius: 5em;
+            display: inline-block;
+            padding: .4em 1em;
+            width: unset;
+            cursor: pointer;
+        }
+
+    
+    }
+
+    .contact-right {
+        h3 {
+            text-transform: uppercase;
+            color:#164A41;
+            font-size: 1.5em;
+        }
+
+        p{
+            font-size: .9em;
+            color:#164A41;
+            margin-top: -10px;
+        }
+
+        .inline {
+            display: flex;
+            
+            .email{
+                margin-left: 130px;
+            }
+        }
+
+        iframe {
+            height: 270px;
+            margin-top: 40px;
+            margin-bottom: 150px;
+        }
+    }
+}
+
+footer {
+    background: #EEF0EF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    ul {
+        display: flex;
+        justify-content: space-around;
+
+    
+        a {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        
+        }
+
+        .footer-logo{
+            color:#f1b24a;
+            font-weight: bold;
+            font-size: 1.24em;
+        }
+
+        p, a {
+            color: #6B9584;
+            font-size: .8em;
+           
+        }
+
+        .action {
+            color: #164A41;
+            font-weight: bold;
+        }
+
+        
+
+    }
+
+    .copyrights {
+        font-size: .6em;
+        opacity: 44%;
+        padding-left: 120px;
+        
+    }
+}
